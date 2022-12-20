@@ -1,9 +1,12 @@
-
 * {
   box-sizing: border-box;
 }
 body {
   margin: 0;
+  font-family: "Roboto";
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Times New Roman', Times, serif;
 }
 .row {
   display: flex;
@@ -60,4 +63,3 @@ header {
   background-color: #996b60;
   height: 800px;
 }
-
