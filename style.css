@@ -8,6 +8,24 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Times New Roman', Times, serif;
 }
+h1 {
+  font-size: 73px;
+}
+h2 {
+  font-size: 64px;
+}
+h3 {
+  font-size: 53px;
+}
+h4 {
+  font-size: 44px;
+}
+h5 {
+  font-size: 35px;
+}
+h6 {
+  font-size:263px;
+}
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -54,10 +72,6 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   background-color: black;
   height: 50px;
-}
-.black-background h5 {
-  color: white;
-  font-family: Roboto;
 }
 header {
   background-color: #996b60;
