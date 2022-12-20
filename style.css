@@ -5,6 +5,7 @@ body {
   margin: 0;
   font-family: "Roboto";
   font-size: 18px;
+  color: #000000;
 }
 h1,
 h2,
@@ -14,6 +15,7 @@ h5,
 h6 {
   font-family: "Times New Roman", Times, serif;
   font-weight: 400;
+  color: #000000;
 }
 h1 {
   font-size: 73px;
@@ -32,6 +34,10 @@ h5 {
 }
 h6 {
   font-size: 26px;
+}
+.button {
+}
+.card {
 }
 .row {
   display: flex;
