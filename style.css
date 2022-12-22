@@ -40,6 +40,7 @@ h6 {
   font-size: 26px;
 }
 .button {
+  
 }
 .card {
 }
@@ -167,6 +168,15 @@ nav ul {
 }
 .container-4 .card-content {
   text-align: center;
+  padding-top: -50px;
+}
+.container-4 .card-content a {
+  text-decoration: none;
+  background-color: #191919;
+  font-size: 12px;
+  color: white;
+  text-transform: uppercase;
+  padding: 15px 45px;
 }
 
 
