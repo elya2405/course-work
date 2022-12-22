@@ -98,3 +98,26 @@ header {
   background-color: #996b60;
   height: 800px;
 }
+nav {
+  position: absolute;
+}
+nav ul {
+  list-style-type: none;
+  color: white;
+}
+.container-1 {
+  max-width: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.navbar-1 {
+  max-width: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
