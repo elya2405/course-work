@@ -39,11 +39,6 @@ h5 {
 h6 {
   font-size: 26px;
 }
-.button {
-  
-}
-.card {
-}
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -95,32 +90,33 @@ h6 {
   color: white;
   font-size: 14px;
 }
-header {
-  background-color: #996b60;
-  height: 800px;
-}
-nav {
-  position: absolute;
-}
-nav ul {
+.navbar-1 {
   list-style-type: none;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-1 li {
+  margin-right: 60px;
+  font-size: 12px;
   color: white;
 }
-.container-1 {
-  max-width: 100%;
-  margin: 0 auto;
-
+.navbar-2 {
+  list-style-type: none;
+  text-transform: uppercase;
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
 }
-.navbar-1 {
-  max-width: 100%;
-  margin: 0 auto;
+.navbar-2 li {
+  margin-right: 60px;
+  font-size: 12px;
+  color: white;
+}
 
+.container-1 {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  background-color: brown;
 }
 
 .container-2 {
@@ -162,6 +158,10 @@ nav ul {
   color: black;
 }
 
+.container-4 {
+  border-bottom: rgb(162, 161, 161) 2px solid;
+  padding-bottom: 80px;
+}
 .container-4 .card .card-img {
   display: flex;
   justify-content: space-around;
@@ -178,5 +178,3 @@ nav ul {
   text-transform: uppercase;
   padding: 15px 45px;
 }
-
-
