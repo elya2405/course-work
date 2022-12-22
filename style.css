@@ -128,6 +128,10 @@ nav ul {
   flex-direction: row;
 
   margin-top: 40px;
+  padding-bottom: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-bottom: rgb(162, 161, 161) 2px solid;
 }
 .container-2 p {
   text-align: center;
