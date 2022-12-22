@@ -128,7 +128,7 @@ nav ul {
   flex-direction: row;
 
   margin-top: 40px;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
   margin-left: 40px;
   margin-right: 40px;
   border-bottom: rgb(162, 161, 161) 2px solid;
@@ -160,3 +160,13 @@ nav ul {
   text-decoration: none;
   color: black;
 }
+
+.container-4 .card .card-img {
+  display: flex;
+  justify-content: space-around;
+}
+.container-4 .card-content {
+  text-align: center;
+}
+
+
