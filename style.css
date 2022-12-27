@@ -112,11 +112,19 @@ h6 {
   font-size: 12px;
   color: white;
 }
-
 .container-1 {
   display: flex;
   justify-content: space-between;
-  background-color: brown;
+}
+
+.brown-background {
+  background-color: #996b60;
+}
+.container-1-1 .card-img {
+  max-width: 100%;
+}
+.container-1-1 .brown-background {
+height: 800px;
 }
 
 .container-2 {
@@ -164,6 +172,7 @@ h6 {
 }
 .container-4 .card .card-img {
   display: flex;
+  max-width: 100%;
   justify-content: space-around;
 }
 .container-4 .card-content {
