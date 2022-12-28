@@ -86,10 +86,6 @@ body {
   display: flex;
   align-items: baseline;
 }
-
-.header .card-img {
+.header-background img {
   width: 100%;
-}
-.header .card-content {
-  background-color: aquamarine;
 }
