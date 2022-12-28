@@ -94,11 +94,20 @@ body {
   width: 50%;
   height: 500px;
 }
+.brown-background {
+  display: flex;
+  align-items: center;
+}
 .header-background p {
   color: white;
   font-size: 10px;
+  margin-left: 40px;
 }
-.header-background h1 {
+.header-background h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  width: 350px;
+  margin-left: 40px;
   color: white;
 }
 .header-background button {
@@ -106,4 +115,6 @@ body {
   background-color: #996b60;
   border: 1px white solid;
   font-size: 10px;
+  margin-left: 40px;
+  margin-top: 30px;
 }
