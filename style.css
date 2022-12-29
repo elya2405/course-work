@@ -68,6 +68,7 @@ body {
   justify-content: space-between;
 
   position: absolute;
+
   top: 50px;
   left: 50px;
   right: 50px;
@@ -117,4 +118,25 @@ body {
   font-size: 10px;
   margin-left: 40px;
   margin-top: 30px;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-around;
+
+  margin-top: 40px;
+  padding-bottom: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-bottom: rgb(162, 161, 161) 2px solid;
+  margin-bottom: 50px;
+}
+.flexbox .card-content {
+  text-align: center;
+  font-size: 12px;
+  padding-bottom: 30px;
+}
+.flexbox .card-img {
+  width: 80%;
+  margin-left: 40px;
 }
