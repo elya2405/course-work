@@ -125,10 +125,10 @@ body {
   justify-content: space-around;
 
   margin-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
   margin-left: 40px;
   margin-right: 40px;
-  border-bottom: rgb(162, 161, 161) 2px solid;
+  border-bottom: gainsboro 2px solid;
   margin-bottom: 50px;
 }
 .flexbox .card-content {
