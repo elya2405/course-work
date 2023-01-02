@@ -120,12 +120,14 @@ body {
   color: white;
 }
 .header-background button {
-  padding: 10px 40px;
+  padding: 20px 60px;
   background-color: #996b60;
   border: 1px white solid;
-  font-size: 10px;
-  margin-left: 40px;
-  margin-top: 30px;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-left: -400px;
 }
 
 .flexbox {
