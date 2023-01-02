@@ -132,7 +132,7 @@ body {
   margin-left: -400px;
 }
 
-.flexbox {
+.row.flexbox {
   display: flex;
   justify-content: space-around;
 
@@ -142,14 +142,14 @@ body {
   border-bottom: gainsboro 2px solid;
   padding-bottom: 40px;
 }
-.flexbox .card-content {
+.row.flexbox .card-content {
   text-align: center;
   font-size: 18px;
   line-height: 32px;
   padding-top: 35px;
   padding-bottom: 40px;
 }
-.flexbox .card-img {
+.row.flexbox .card-img {
   width: 80%;
   margin-left: 40px;
 }
