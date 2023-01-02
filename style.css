@@ -8,7 +8,7 @@ body {
   color: #000000;
 }
 .container {
-  max-width: 900px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 .row {
@@ -57,7 +57,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: black;
-  height: 40px;
+  height: 50px;
 }
 .black-background p {
   color: white;
@@ -70,7 +70,7 @@ body {
 
   position: absolute;
 
-  top: 50px;
+  top: 80px;
   left: 10px;
   right: 10px;
 }
@@ -136,17 +136,18 @@ body {
   display: flex;
   justify-content: space-around;
 
-  margin-top: 40px;
-  padding-bottom: 30px;
+  margin-top: 35px;
   margin-left: 40px;
   margin-right: 40px;
   border-bottom: gainsboro 2px solid;
-  margin-bottom: 50px;
+  padding-bottom: 40px;
 }
 .flexbox .card-content {
   text-align: center;
-  font-size: 12px;
-  padding-bottom: 30px;
+  font-size: 18px;
+  line-height: 32px;
+  padding-top: 35px;
+  padding-bottom: 40px;
 }
 .flexbox .card-img {
   width: 80%;
@@ -156,11 +157,12 @@ body {
 .flexbox-1 {
   display: flex;
 }
-.flexbox-1 h1 {
+.flexbox-1 h4 {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
-  font-size: 35px;
-  width: 400px;
+  font-size: 64px;
+  line-height: 80px;
+  width: 700px;
 }
 .flexbox-1 a {
   display: flex;
