@@ -92,16 +92,35 @@ body {
   height: 800px;
   object-fit: cover;
 }
-
 .header-background .brown-background {
   background-color: #996b60;
 }
 .brown-background {
   display: flex;
+  align-items: flex-end;
   height: 800px;
 }
-.header-background p {
+.brown-background .card-content {
+  margin-left: 50px;
+  margin-bottom: 100px;
+}
+.brown-background .card-content h1 {
   color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 73px;
+  line-height: 96px;
+}
+.brown-background .card-content p {
+  color: white;
+}
+.brown-background .card-content button {
+  padding: 20px 60px;
+  background-color: #996b60;
+  border: 1px white solid;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  margin-top: 40px;
 }
 
 .row.flexbox {
