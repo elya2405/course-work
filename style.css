@@ -4,11 +4,9 @@
 body {
   margin: 0;
   font-family: "Roboto";
-  font-size: 15px;
-  color: #000000;
 }
 .container {
-  max-width: 1440px;
+  max-width: 1320px;
   margin: 0 auto;
 }
 .row {
@@ -71,16 +69,16 @@ body {
   position: absolute;
 
   top: 80px;
-  left: 10px;
-  right: 10px;
+  left: 80px;
+  right: 80px;
 }
 .topbar nav a {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 12px;
-  padding-right: 30px;
   line-height: 18px;
+  padding-right: 70px;
 }
 .topbar nav ul {
   list-style-type: none;
@@ -100,36 +98,10 @@ body {
 }
 .brown-background {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   height: 800px;
 }
 .header-background p {
   color: white;
-  font-size: 18px;
-  line-height: 32px;
-  margin-right: 35px;
-}
-.header-background h2 {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 73px;
-  line-height: 96px;
-  width: 550px;
-  margin-left: -30px;
-  margin-bottom: 20px;
-  color: white;
-}
-.header-background button {
-  padding: 20px 60px;
-  background-color: #996b60;
-  border: 1px white solid;
-  font-size: 12px;
-  line-height: 14px;
-  text-transform: uppercase;
-  margin-bottom: -150px;
-  margin-top: 30px;
-  margin-left: -400px;
 }
 
 .row.flexbox {
@@ -150,8 +122,8 @@ body {
   padding-bottom: 40px;
 }
 .row.flexbox .card-img {
-  width: 80%;
-  margin-left: 40px;
+  width: 300px;
+  height: 50px;
 }
 
 .flexbox-1 {
@@ -175,13 +147,11 @@ body {
   margin-top: -55px;
 }
 .row.flexbox-2 {
-  display: flex;
-  justify-content: space-evenly;
+  padding-left: 80px;
   margin-top: 100px;
 }
 .row.flexbox-2 .card-img {
-  width: 382px;
-  height: 451px;
+  max-width: 100%;
 }
 .row.flexbox-2 .card-content h4 {
   font-size: 31px;
