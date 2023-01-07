@@ -290,3 +290,7 @@ body {
   text-decoration: none;
   text-transform: capitalize;
 }
+
+.row.flexbox-7 .card.card-horizonal {
+  display: flex;
+}
