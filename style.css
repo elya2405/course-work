@@ -272,6 +272,10 @@ body {
   justify-content: space-between;
 
   background-color: black;
+
+  padding-top: 95px;
+  padding-bottom: 50px;
+  margin-top: -30px;
 }
 .row.flexbox-6 p {
   color: white;
