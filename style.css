@@ -192,3 +192,14 @@ body {
   padding-right: 40px;
   margin-top: -25px;
 }
+.row.flexbox-2 .card-content button {
+  background-color: #191919;
+  color: white;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+
+  padding: 15px 60px;
+  margin-left: 100px;
+  margin-top: 10px;
+}
