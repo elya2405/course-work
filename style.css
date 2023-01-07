@@ -294,3 +294,7 @@ body {
 .row.flexbox-7 .card.card-horizonal {
   display: flex;
 }
+.row.flexbox-7 .card.card-horizonal .card-img {
+  width: 550px;
+  height: 470px;
+}
