@@ -6,7 +6,7 @@ body {
   font-family: "Roboto";
 }
 .container {
-  max-width: 1320px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 .row {
@@ -131,7 +131,7 @@ body {
   padding-bottom: 40px;
 }
 .row.flexbox .card-img {
-  padding-left: 60px;
+  padding-left: 90px;
 }
 .row.flexbox .card-content {
   text-align: center;
@@ -181,7 +181,7 @@ body {
   margin-right: 60px;
 }
 .row.flexbox-2 .card-img {
-  max-width: 330px;
+  width: 382px;
 }
 .row.flexbox-2 .card-content h4 {
   font-family: "Times New Roman", Times, serif;
@@ -231,7 +231,7 @@ body {
   font-size: 53px;
   line-height: 80px;
 
-  margin-right: 150px;
+  margin-right: 270px;
 }
 .flexbox-3 p {
   font-size: 18px;
@@ -240,24 +240,29 @@ body {
   padding-left: 50px;
 }
 
-.card.card-horizonal {
+.row.flexbox-5 .card.card-horizonal {
   display: flex;
 }
 .row.flexbox-5 {
   margin: 60px 60px;
 }
-.row.flexbox-5 .card-img {
-  width: 830px;
+.row.flexbox-5 .card.card-horizonal .card-img {
+  width: 880px;
+  height: 645px;
 }
-.row.flexbox-5 .card-content h2 {
+.row.flexbox-5 .card.card-horizonal .card-content {
+  margin-right: 69px;
+  margin-top: 40px;
+}
+.row.flexbox-5 .card.card-horizonal .card-content h2 {
   font-size: 30px;
   line-height: 44px;
 }
-.row.flexbox-5 .card-content h1 {
+.row.flexbox-5 .card.card-horizonal .card-content h1 {
   font-size: 36px;
   line-height: 44px;
 }
-.row.flexbox-5 .card-content p {
+.row.flexbox-5 .card.card-horizonal .card-content p {
   font-size: 18px;
   line-height: 32px;
 }
