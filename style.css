@@ -173,13 +173,16 @@ body {
   padding-left: 50px;
 }
 .row.flexbox-2 .card-img {
-  max-width: 100%;
+  max-width: 370px;
 }
 .row.flexbox-2 .card-content h4 {
   font-family: "Times New Roman", Times, serif;
   font-size: 31px;
   line-height: 44px;
   text-align: center;
+
+  margin-top: 3px;
+  margin-right: 60px;
 }
 .row.flexbox-2 .card-content p {
   display: flex;
