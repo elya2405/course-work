@@ -217,6 +217,7 @@ body {
   align-items: center;
 
   margin: 0 60px;
+  margin-top: -50px;
 }
 .flexbox-3 .space-between h2 {
   font-family: "Times New Roman", Times, serif;
