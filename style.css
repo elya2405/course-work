@@ -215,12 +215,19 @@ body {
 .flexbox-3 .space-between {
   display: flex;
   align-items: center;
+
+  margin: 0 60px;
 }
-.flexbox-3 .space-between h3 {
+.flexbox-3 .space-between h2 {
+  font-family: "Times New Roman", Times, serif;
   font-size: 53px;
   line-height: 80px;
+
+  margin-right: 150px;
 }
 .flexbox-3 .space-between p {
   font-size: 18px;
   line-height: 32px;
+
+  padding-left: 50px;
 }
