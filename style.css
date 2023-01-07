@@ -268,8 +268,21 @@ body {
 }
 
 .row.flexbox-6 {
+  display: flex;
+  justify-content: space-between;
+
   background-color: black;
 }
 .row.flexbox-6 p {
   color: white;
+  text-align: center;
+  font-size: 18px;
+  line-height: 32px;
+}
+.row.flexbox-6 a {
+  display: flex;
+  justify-content: center;
+  color: #8a8a8a;
+  text-decoration: none;
+  text-transform: capitalize;
 }
