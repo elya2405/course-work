@@ -149,6 +149,8 @@ body {
   padding-top: 60px;
 
   border-top: 2px solid black;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 .flexbox-1 h1 {
   text-align: center;
@@ -175,9 +177,11 @@ body {
   margin-top: 80px;
   padding-bottom: 150px;
   border-bottom: 2px solid black;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 .row.flexbox-2 .card-img {
-  max-width: 370px;
+  max-width: 330px;
 }
 .row.flexbox-2 .card-content h4 {
   font-family: "Times New Roman", Times, serif;
@@ -218,6 +222,9 @@ body {
 
   margin: 0 60px;
   margin-top: -50px;
+
+  border-bottom: 2px solid black;
+  padding-bottom: 80px;
 }
 .flexbox-3 h2 {
   font-family: "Times New Roman", Times, serif;
