@@ -129,9 +129,6 @@ body {
 
   padding-top: 30px;
   padding-bottom: 40px;
-  margin-left: 60px;
-  margin-right: 60px;
-  border-bottom: 2px solid gainsboro;
 }
 .row.flexbox .card-img {
   padding-left: 60px;
@@ -145,8 +142,13 @@ body {
 
 .flexbox-1 {
   display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 
-  padding-top: 50px;
+  padding-top: 60px;
+
+  border-top: 2px solid black;
 }
 .flexbox-1 h1 {
   text-align: center;
@@ -158,19 +160,23 @@ body {
   margin-bottom: 30px;
 }
 .flexbox-1 a {
-  display: flex;
-  justify-content: center;
   font-size: 12px;
   line-height: 18px;
   text-transform: uppercase;
   text-decoration: none;
   color: black;
 }
+
 .row.flexbox-2 {
   display: flex;
   justify-content: space-evenly;
 
   padding-left: 50px;
+  margin-top: 80px;
+  padding-bottom: 150px;
+  border-bottom: 2px solid black;
+
+  margin-bottom: 100px;
 }
 .row.flexbox-2 .card-img {
   max-width: 370px;
