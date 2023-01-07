@@ -246,6 +246,18 @@ body {
 .row.flexbox-5 {
   margin: 60px 60px;
 }
-.row.flexbox-5 img {
+.row.flexbox-5 .card-img {
   width: 830px;
+}
+.row.flexbox-5 .card-content h2 {
+  font-size: 30px;
+  line-height: 44px;
+}
+.row.flexbox-5 .card-content h1 {
+  font-size: 36px;
+  line-height: 44px;
+}
+.row.flexbox-5 .card-content p {
+  font-size: 18px;
+  line-height: 32px;
 }
