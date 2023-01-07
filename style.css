@@ -181,14 +181,14 @@ body {
   line-height: 44px;
   text-align: center;
 
-  margin-top: 3px;
+  margin-top: 5px;
   margin-right: 60px;
 }
 .row.flexbox-2 .card-content p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   text-align: center;
   font-size: 16px;
   line-height: 28px;
+
+  padding-right: 40px;
+  margin-top: -25px;
 }
