@@ -382,6 +382,10 @@ body {
   text-align: center;
 }
 .flexbox-8 .social-network a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  line-height: 18px;
 }
 .flexbox-8 .social-network ul {
   list-style-type: none;
