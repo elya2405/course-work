@@ -306,3 +306,9 @@ body {
   line-height: 80px;
   font-family: "Times New Roman", Times, serif;
 }
+.row.flexbox-7 .card.card-horizonal .card-content p {
+  font-size: 18px;
+  line-height: 32px;
+}
+.row.flexbox-7 .card.card-horizonal .card-content a {
+}
