@@ -69,8 +69,8 @@ body {
   position: absolute;
 
   top: 80px;
-  left: 80px;
-  right: 80px;
+  left: 40px;
+  right: 40px;
 }
 .topbar nav a {
   color: white;
