@@ -291,20 +291,20 @@ body {
   text-transform: capitalize;
 }
 
-.row.flexbox-7 {
+.flexbox-7 {
   margin: 60px;
 }
-.row.flexbox-7 .card.card-horizonal {
+.flexbox-7 .card.card-horizonal {
   display: flex;
 }
-.row.flexbox-7 .card.card-horizonal .card-img {
+.flexbox-7 .card.card-horizonal .card-img {
   width: 550px;
   height: 470px;
 }
-.row.flexbox-7 .card.card-horizonal .card-content {
+.flexbox-7 .card.card-horizonal .card-content {
   padding-left: 110px;
 }
-.row.flexbox-7 .card.card-horizonal .card-content h1 {
+.flexbox-7 .card.card-horizonal .card-content h1 {
   font-size: 64px;
   line-height: 80px;
   font-family: "Times New Roman", Times, serif;
@@ -312,13 +312,13 @@ body {
   margin-top: -5px;
   margin-bottom: 160px;
 }
-.row.flexbox-7 .card.card-horizonal .card-content p {
+.flexbox-7 .card.card-horizonal .card-content p {
   font-size: 18px;
   line-height: 32px;
 
   margin-bottom: 30px;
 }
-.row.flexbox-7 .card.card-horizonal .card-content a {
+.flexbox-7 .card.card-horizonal .card-content a {
   font-size: 12px;
   line-height: 18px;
 
