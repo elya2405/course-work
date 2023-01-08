@@ -329,6 +329,10 @@ body {
 .flexbox-8 {
   background-image: url(picture9.png);
   height: 568px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .flexbox-8 .spotify {
   background-color: black;
@@ -336,6 +340,8 @@ body {
 
   width: 550px;
   height: 303px;
+
+  margin-left: 60px;
 }
 .flexbox-8 .social-network {
   background-color: black;
@@ -343,4 +349,7 @@ body {
 
   width: 550px;
   height: 125px;
+
+  margin-top: 20px;
+  margin-left: 60px;
 }
