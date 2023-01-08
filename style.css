@@ -301,6 +301,9 @@ body {
   width: 550px;
   height: 470px;
 }
+.row.flexbox-7 .card.card-horizonal .card-content {
+  padding-left: 110px;
+}
 .row.flexbox-7 .card.card-horizonal .card-content h1 {
   font-size: 64px;
   line-height: 80px;
