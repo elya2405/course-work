@@ -381,3 +381,8 @@ body {
   line-height: 28px;
   text-align: center;
 }
+.flexbox-8 .social-network a {
+}
+.flexbox-8 .social-network ul {
+  list-style-type: none;
+}
