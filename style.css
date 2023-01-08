@@ -311,4 +311,6 @@ body {
   line-height: 32px;
 }
 .row.flexbox-7 .card.card-horizonal .card-content a {
+  font-size: 12px;
+  line-height: 18px;
 }
