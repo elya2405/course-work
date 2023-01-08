@@ -308,10 +308,15 @@ body {
   font-size: 64px;
   line-height: 80px;
   font-family: "Times New Roman", Times, serif;
+
+  margin-top: -5px;
+  margin-bottom: 160px;
 }
 .row.flexbox-7 .card.card-horizonal .card-content p {
   font-size: 18px;
   line-height: 32px;
+
+  margin-bottom: 30px;
 }
 .row.flexbox-7 .card.card-horizonal .card-content a {
   font-size: 12px;
