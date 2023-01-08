@@ -330,5 +330,9 @@ body {
   background-image: url(picture9.png);
   height: 568px;
 }
-.spotify {
+.flexbox-8 .spotify {
+  background-color: black;
+}
+.flexbox-8 .social-network {
+  background-color: black;
 }
