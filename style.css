@@ -386,7 +386,12 @@ body {
   color: white;
   font-size: 12px;
   line-height: 18px;
+  text-transform: uppercase;
+
+  margin-right: 40px;
 }
 .flexbox-8 .social-network ul {
   list-style-type: none;
+
+  margin-left: 100px;
 }
