@@ -333,8 +333,14 @@ body {
 .flexbox-8 .spotify {
   background-color: black;
   color: white;
+
+  width: 550px;
+  height: 303px;
 }
 .flexbox-8 .social-network {
   background-color: black;
   color: white;
+
+  width: 550px;
+  height: 125px;
 }
