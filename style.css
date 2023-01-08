@@ -355,6 +355,10 @@ body {
   font-size: 18px;
   line-height: 28px;
 }
+.flexbox-8 .spotify button {
+  background-color: white;
+  color: black;
+}
 .flexbox-8 .social-network {
   background-color: black;
   color: white;
