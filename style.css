@@ -291,8 +291,7 @@ body {
   text-transform: capitalize;
 }
 
-
-.row.flexbox-7  {
+.row.flexbox-7 {
   margin: 60px;
 }
 .row.flexbox-7 .card.card-horizonal {
@@ -301,4 +300,8 @@ body {
 .row.flexbox-7 .card.card-horizonal .card-img {
   width: 550px;
   height: 470px;
+}
+.row.flexbox-7 .card.card-horizonal .card-content h1 {
+  font-size: 64px;
+  line-height: 80px;
 }
