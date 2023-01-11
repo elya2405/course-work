@@ -447,4 +447,7 @@ footer {
 .links a {
   text-decoration: none;
   color: gray;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 18px;
 }
