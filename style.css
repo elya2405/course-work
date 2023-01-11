@@ -456,3 +456,10 @@ footer {
   margin-top: 538px;
   margin-left: 20px;
 }
+.links-2 a {
+  text-decoration: none;
+  color: gray;
+  padding-right: 60px;
+  font-size: 16px;
+  line-height: 24px;
+}
