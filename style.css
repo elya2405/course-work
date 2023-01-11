@@ -400,3 +400,8 @@ footer {
   margin-left: 60px;
   margin-top: 20px;
 }
+.stay h1 {
+  font-size: 42px;
+  line-height: 72px;
+  font-family: "Times New Roman", Times, serif;
+}
