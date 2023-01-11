@@ -444,3 +444,7 @@ footer {
 .links li {
   padding-top: 21px;
 }
+.links a {
+  text-decoration: none;
+  color: gray;
+}
