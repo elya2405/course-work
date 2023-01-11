@@ -93,27 +93,27 @@ body {
   object-fit: cover;
 }
 .header-background .brown-background {
-  background-color: #996b60;
-}
-.brown-background {
   display: flex;
   align-items: flex-end;
   height: 800px;
+  background-color: #996b60;
 }
-.brown-background .card-content {
+.header-background .brown-background .card-content {
   margin-left: 50px;
   margin-bottom: 100px;
 }
-.brown-background .card-content h1 {
+.header-background .brown-background .card-content h1 {
   color: white;
   font-family: "Times New Roman", Times, serif;
   font-size: 73px;
   line-height: 96px;
 }
-.brown-background .card-content p {
+.header-background .brown-background .card-content p {
   color: white;
+  font-size: 18px;
+  line-height: 32px;
 }
-.brown-background .card-content button {
+.header-background .brown-background .card-content button {
   padding: 20px 60px;
   background-color: #996b60;
   border: 1px white solid;
