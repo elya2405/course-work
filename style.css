@@ -415,5 +415,11 @@ footer {
   font-size: 9px;
   line-height: 14px;
   color: #818181;
-  padding: 25px;
+  margin: 20px;
+  padding: 10px 190px 5px 5px;
+}
+.stay .border-bottom .submit {
+  font-size: 12px;
+  line-height: 14px;
+  color: white;
 }
