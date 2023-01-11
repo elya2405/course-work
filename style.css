@@ -411,8 +411,9 @@ footer {
 }
 .stay input {
   background-color: black;
-  border-color: transparent; 
+  border-color: transparent;
   font-size: 9px;
   line-height: 14px;
-  color: white;
+  color: #818181;
+  padding: 25px;
 }
