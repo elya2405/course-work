@@ -437,3 +437,7 @@ footer {
   padding-left: 38px;
   text-transform: uppercase;
 }
+.links ul {
+  list-style-type: none;
+  margin-right: 100px;
+}
