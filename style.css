@@ -423,3 +423,6 @@ footer {
   line-height: 14px;
   color: white;
 }
+.stay .border-bottom {
+  border-bottom: 1px solid gray;
+}
