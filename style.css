@@ -264,28 +264,34 @@ body {
   line-height: 32px;
 }
 
-.row.flexbox-6 {
+.flexbox-6 {
   display: flex;
   justify-content: space-between;
 
   background-color: black;
+  width: 100%;
 
   padding-top: 80px;
   padding-bottom: 50px;
   margin-top: -30px;
 }
-.row.flexbox-6 p {
+.uppercase {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.flexbox-6 p {
   color: white;
   text-align: center;
   font-size: 18px;
   line-height: 32px;
 }
-.row.flexbox-6 a {
+.flexbox-6 a {
   display: flex;
   justify-content: center;
   color: #8a8a8a;
   text-decoration: none;
   text-transform: capitalize;
+  padding-left: 15px;
 }
 
 .flexbox-7 {
