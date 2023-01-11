@@ -405,3 +405,7 @@ footer {
   line-height: 72px;
   font-family: "Times New Roman", Times, serif;
 }
+.stay p {
+  font-size: 18px;
+  line-height: 27px;
+}
