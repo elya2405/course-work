@@ -126,23 +126,23 @@ body {
   margin-top: 40px;
 }
 
-.flexbox {
+.flexbox-1 {
   display: flex;
   justify-content: space-between;
 }
-.flexbox .card {
+.flexbox-1 .card {
   display: flex;
   flex-direction: column;
   padding: 30px 80px 40px 80px;
 }
-.flexbox .card .card-content p {
+.flexbox-1 .card .card-content p {
   text-align: center;
   font-size: 18px;
   line-height: 32px;
   padding-bottom: 30px;
 }
 
-.flexbox-1 {
+.flexbox-2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -154,7 +154,7 @@ body {
   margin-left: 60px;
   margin-right: 60px;
 }
-.flexbox-1 h1 {
+.flexbox-2 h1 {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
   font-size: 64px;
@@ -162,7 +162,7 @@ body {
   width: 700px;
   margin-bottom: 30px;
 }
-.flexbox-1 a {
+.flexbox-2 a {
   font-size: 12px;
   line-height: 18px;
   text-transform: uppercase;
@@ -170,7 +170,7 @@ body {
   color: black;
 }
 
-.flexbox-2 {
+.flexbox-3 {
   display: flex;
   justify-content: space-evenly;
 
@@ -181,10 +181,10 @@ body {
   margin-left: 60px;
   margin-right: 60px;
 }
-.flexbox-2 .card .card-img {
+.flexbox-3 .card .card-img {
   width: 382px;
 }
-.flexbox-2 .card .card-content h4 {
+.flexbox-3 .card .card-content h4 {
   font-family: "Times New Roman", Times, serif;
   font-size: 31px;
   line-height: 44px;
@@ -193,7 +193,7 @@ body {
   margin-top: 5px;
   margin-right: 60px;
 }
-.flexbox-2 .card .card-content p {
+.flexbox-3 .card .card-content p {
   text-align: center;
   font-size: 16px;
   line-height: 28px;
@@ -201,7 +201,7 @@ body {
   padding-right: 40px;
   margin-top: -25px;
 }
-.flexbox-2 .card .card-content button {
+.flexbox-3 .card .card-content button {
   background-color: #191919;
   color: white;
   font-size: 12px;
@@ -217,7 +217,7 @@ body {
   max-width: 100%;
   padding: 60px;
 }
-.flexbox-3 {
+.flexbox-4 {
   display: flex;
   align-items: center;
 
@@ -227,14 +227,14 @@ body {
   border-bottom: 2px solid gainsboro;
   padding-bottom: 80px;
 }
-.flexbox-3 h2 {
+.flexbox-4 h2 {
   font-family: "Times New Roman", Times, serif;
   font-size: 53px;
   line-height: 80px;
 
   margin-right: 270px;
 }
-.flexbox-3 p {
+.flexbox-4 p {
   font-size: 18px;
   line-height: 32px;
 
