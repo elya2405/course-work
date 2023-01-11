@@ -441,3 +441,6 @@ footer {
   list-style-type: none;
   margin-right: 100px;
 }
+.links li {
+  padding-top: 21px;
+}
