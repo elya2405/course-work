@@ -412,11 +412,13 @@ footer {
 .stay input {
   background-color: black;
   border-color: transparent;
+  margin: 20px;
+}
+.stay .border-bottom .email {
   font-size: 9px;
   line-height: 14px;
   color: #818181;
-  margin: 20px;
-  padding: 10px 60px 5px 5px;
+  padding: 10px 190px 5px 5px;
 }
 .stay .border-bottom .submit {
   font-size: 12px;
@@ -425,6 +427,7 @@ footer {
 }
 .stay .border-bottom {
   border-bottom: 1px solid #8a8a8a;
+  position: absolute;
 }
 .links {
   display: flex;
