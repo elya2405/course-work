@@ -221,23 +221,19 @@ body {
   display: flex;
   align-items: center;
 
-  margin: 0 60px;
-  margin-top: -50px;
-
-  border-bottom: 2px solid gainsboro;
+  margin: -50px 60px 0 60px;
+  border-bottom: 2px solid #bdbdbd;
   padding-bottom: 80px;
 }
 .flexbox-4 h2 {
   font-family: "Times New Roman", Times, serif;
   font-size: 53px;
   line-height: 80px;
-
   margin-right: 270px;
 }
 .flexbox-4 p {
   font-size: 18px;
   line-height: 32px;
-
   padding-left: 50px;
 }
 
