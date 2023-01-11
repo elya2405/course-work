@@ -145,12 +145,12 @@ body {
 .flexbox-1 {
   display: flex;
   justify-content: center;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
 
   padding-top: 60px;
 
-  border-top: 2px solid gainsboro;
+  border-top: 2px solid #bdbdbd;
   margin-left: 60px;
   margin-right: 60px;
 }
@@ -160,7 +160,6 @@ body {
   font-size: 64px;
   line-height: 80px;
   width: 700px;
-
   margin-bottom: 30px;
 }
 .flexbox-1 a {
