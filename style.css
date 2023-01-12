@@ -435,7 +435,7 @@ footer {
   margin-top: 55px;
   margin-left: 200px;
 }
-.links p {
+.links span {
   color: white;
   padding-left: 38px;
   text-transform: uppercase;
@@ -454,6 +454,7 @@ footer {
   font-size: 12px;
   line-height: 18px;
 }
+
 .links-2 {
   position: absolute;
   margin-top: 538px;
