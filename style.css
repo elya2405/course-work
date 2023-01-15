@@ -184,6 +184,11 @@ body {
 .flexbox-3 .card .card-img {
   width: 382px;
 }
+.flexbox-3 .card .circle {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 270px;
+}
 .flexbox-3 .card .card-content h4 {
   font-family: "Times New Roman", Times, serif;
   font-size: 31px;
