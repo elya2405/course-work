@@ -6,7 +6,7 @@ body {
   font-family: "Roboto";
 }
 .container {
-  max-width: 1440px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 .row {
@@ -49,7 +49,6 @@ body {
 .col-12 {
   flex: 100% 0 0;
 }
-
 .black-background {
   display: flex;
   justify-content: center;
@@ -63,33 +62,26 @@ body {
   line-height: 18px;
 }
 
-.topbar nav {
+.row.topbar {
   display: flex;
   justify-content: space-between;
-
   position: absolute;
-
   top: 80px;
-  left: 40px;
-  right: 40px;
+  width: 93%;
 }
-.topbar nav a {
+.row.topbar a {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 12px;
   line-height: 18px;
-  padding-right: 70px;
 }
-.topbar nav ul {
+.topbar ul {
   list-style-type: none;
 }
-
 .baseline {
   display: flex;
-  align-items: baseline;
 }
-
 .header-background img {
   width: 100%;
   height: 800px;
