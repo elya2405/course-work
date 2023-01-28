@@ -64,10 +64,11 @@ body {
 
 .row.topbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+
   position: absolute;
   top: 80px;
-  width: 93%;
+  width: 100%;
 }
 .row.topbar a {
   color: white;
@@ -120,18 +121,24 @@ body {
 
 .flexbox-1 {
   display: flex;
-  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 .flexbox-1 .card {
   display: flex;
   flex-direction: column;
-  padding: 30px 80px 40px 80px;
 }
 .flexbox-1 .card .card-content p {
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 32px;
-  padding-bottom: 30px;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.flexbox-1 .card .card-img {
+  width: 70%;
+  margin: 0 auto;
 }
 
 .flexbox-2 {
@@ -143,8 +150,8 @@ body {
   padding-top: 60px;
 
   border-top: 2px solid #bdbdbd;
-  margin-left: 60px;
-  margin-right: 60px;
+  /*margin-left: 60px;
+  margin-right: 60px;*/
 }
 .flexbox-2 h1 {
   text-align: center;
@@ -430,7 +437,7 @@ footer {
   display: flex;
 
   margin-top: 55px;
-  margin-left: 200px;
+  margin-right: 200px;
 }
 .links span {
   color: white;
@@ -454,7 +461,6 @@ footer {
 
 .links-2 {
   position: absolute;
-  margin-top: 538px;
   margin-left: 20px;
 }
 .links-2 a {
