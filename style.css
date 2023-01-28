@@ -21,10 +21,6 @@ h5,
 h6 {
   font-family: "Times New Roman", Times, serif;
 }
-p,
-span {
-  font-family: "Roboto";
-}
 .col-1 {
   flex: 8.3% 0 0;
 }
@@ -155,20 +151,17 @@ span {
 
 .flexbox-2 {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
-
-  padding-top: 60px;
-
+  width: 100%;
   border-top: 2px solid #bdbdbd;
+  padding-top: 60px;
 }
 .flexbox-2 h1 {
   text-align: center;
   font-size: 64px;
   line-height: 80px;
-  width: 700px;
-  margin-bottom: 30px;
+  width: 60%;
 }
 .flexbox-2 a {
   font-size: 12px;
