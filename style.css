@@ -13,6 +13,18 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Times New Roman", Times, serif;
+}
+p,
+span {
+  font-family: "Roboto";
+}
 .col-1 {
   flex: 8.3% 0 0;
 }
@@ -132,7 +144,7 @@ body {
   text-align: center;
   font-size: 16px;
   line-height: 32px;
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
   margin-bottom: 30px;
 }
@@ -150,12 +162,9 @@ body {
   padding-top: 60px;
 
   border-top: 2px solid #bdbdbd;
-  /*margin-left: 60px;
-  margin-right: 60px;*/
 }
 .flexbox-2 h1 {
   text-align: center;
-  font-family: "Times New Roman", Times, serif;
   font-size: 64px;
   line-height: 80px;
   width: 700px;
@@ -189,7 +198,6 @@ body {
   margin-left: 270px;
 }
 .flexbox-3 .card .card-content h4 {
-  font-family: "Times New Roman", Times, serif;
   font-size: 31px;
   line-height: 44px;
   text-align: center;
@@ -314,7 +322,6 @@ body {
 .flexbox-7 .card.card-horizonal .card-content h1 {
   font-size: 64px;
   line-height: 80px;
-  font-family: "Times New Roman", Times, serif;
   margin-top: -5px;
   margin-bottom: 160px;
 }
@@ -348,7 +355,6 @@ body {
 .flexbox-8 .spotify h1 {
   font-size: 55px;
   line-height: 80px;
-  font-family: "Times New Roman", Times, serif;
   text-align: center;
 }
 .flexbox-8 .spotify p {
@@ -407,7 +413,6 @@ footer {
 .stay h1 {
   font-size: 42px;
   line-height: 72px;
-  font-family: "Times New Roman", Times, serif;
 }
 .stay p {
   font-size: 18px;
