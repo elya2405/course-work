@@ -211,7 +211,7 @@ h6 {
 
 .box img {
   max-width: 100%;
-  padding: 60px;
+  padding: 60px 0;
 }
 .flexbox-4 {
   display: flex;
