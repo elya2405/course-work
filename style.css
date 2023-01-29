@@ -232,31 +232,31 @@ h6 {
   width: 75%;
 }
 
-.flexbox-5 {
-  margin: 60px;
+.row.flexbox-5 {
+  margin: 60px 0;
 }
-.flexbox-5 .card.card-horizonal {
+.row.flexbox-5 .card.card-horizonal {
   display: flex;
 }
-.flexbox-5 .card.card-horizonal .card-img {
+.row.flexbox-5 .card.card-horizonal .card-img {
   width: 880px;
   height: 645px;
 }
-.flexbox-5 .card.card-horizonal .card-content {
-  margin-right: 69px;
+.row.flexbox-5 .card.card-horizonal .card-content {
   margin-top: 40px;
 }
-.flexbox-5 .card.card-horizonal .card-content h2 {
+.row.flexbox-5 .card.card-horizonal .card-content h2 {
   font-size: 30px;
   line-height: 44px;
 }
-.flexbox-5 .card.card-horizonal .card-content h1 {
+.row.flexbox-5 .card.card-horizonal .card-content h1 {
   font-size: 36px;
   line-height: 44px;
 }
-.flexbox-5 .card.card-horizonal .card-content p {
+.row.flexbox-5 .card.card-horizonal .card-content p {
   font-size: 18px;
   line-height: 32px;
+  width: 85%;
 }
 
 .flexbox-6 {
