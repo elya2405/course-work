@@ -321,7 +321,6 @@ h6 {
 .flexbox-8 {
   background-image: url(picture9.png);
   height: 568px;
-  object-fit: cover;
 
   display: flex;
   flex-direction: column;
