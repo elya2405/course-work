@@ -289,31 +289,29 @@ h6 {
   margin-left: 215px;
 }
 
-.flexbox-7 {
-  margin: 60px;
+.row.flexbox-7 {
+  margin: 60px 0;
 }
-.flexbox-7 .card.card-horizonal {
+.row.flexbox-7 .card.card-horizonal {
   display: flex;
 }
-.flexbox-7 .card.card-horizonal .card-img {
+.row.flexbox-7 .card.card-horizonal .card-img {
   width: 550px;
   height: 470px;
+  margin-right: 90px;
 }
-.flexbox-7 .card.card-horizonal .card-content {
-  padding-left: 110px;
-}
-.flexbox-7 .card.card-horizonal .card-content h1 {
+.row.flexbox-7 .card.card-horizonal .card-content h1 {
   font-size: 64px;
   line-height: 80px;
-  margin-top: -5px;
+  margin-top: -3px;
   margin-bottom: 160px;
 }
-.flexbox-7 .card.card-horizonal .card-content p {
+.row.flexbox-7 .card.card-horizonal .card-content p {
   font-size: 18px;
   line-height: 32px;
   margin-bottom: 30px;
 }
-.flexbox-7 .card.card-horizonal .card-content a {
+.row.flexbox-7 .card.card-horizonal .card-content a {
   font-size: 12px;
   line-height: 18px;
   text-decoration: none;
