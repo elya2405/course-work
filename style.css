@@ -259,34 +259,34 @@ h6 {
   width: 85%;
 }
 
-.flexbox-6 {
-  display: flex;
-  justify-content: space-between;
-
+.row.flexbox-6 {
+  padding-top: 90px;
+  padding-bottom: 60px;
   background-color: black;
-  width: 100%;
-
-  padding-top: 80px;
-  padding-bottom: 50px;
-  margin-top: -30px;
 }
 .uppercase {
   text-transform: uppercase;
   font-size: 14px;
 }
-.flexbox-6 p {
+.row.flexbox-6 p {
   color: white;
   text-align: center;
   font-size: 18px;
   line-height: 32px;
+  padding: 0 85px;
 }
-.flexbox-6 a {
+.row.flexbox-6 a {
   display: flex;
   justify-content: center;
   color: #8a8a8a;
   text-decoration: none;
   text-transform: capitalize;
   padding-left: 15px;
+  margin-top: 20px;
+}
+.row.flexbox-6 span {
+  color: white;
+  margin-left: 215px;
 }
 
 .flexbox-7 {
@@ -323,6 +323,7 @@ h6 {
 .flexbox-8 {
   background-image: url(picture9.png);
   height: 568px;
+  object-fit: cover;
 
   display: flex;
   flex-direction: column;
