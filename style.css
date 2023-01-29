@@ -127,16 +127,16 @@ h6 {
   margin-top: 40px;
 }
 
-.flexbox-1 {
+.row.flexbox-1 {
   display: flex;
   margin-top: 50px;
   margin-bottom: 30px;
 }
-.flexbox-1 .card {
+.row.flexbox-1 .card {
   display: flex;
   flex-direction: column;
 }
-.flexbox-1 .card .card-content p {
+.row.flexbox-1 .card .card-content p {
   text-align: center;
   font-size: 18px;
   line-height: 32px;
@@ -144,7 +144,7 @@ h6 {
   margin: 0 auto;
   margin-bottom: 30px;
 }
-.flexbox-1 .card .card-img {
+.row.flexbox-1 .card .card-img {
   width: 70%;
   margin: 0 auto;
 }
