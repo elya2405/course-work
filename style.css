@@ -69,7 +69,6 @@ h6 {
   font-size: 14px;
   line-height: 18px;
 }
-
 .row.topbar {
   display: flex;
   justify-content: space-between;
@@ -130,7 +129,6 @@ h6 {
   text-transform: uppercase;
   margin-top: 40px;
 }
-
 .row.flexbox-1 {
   display: flex;
   margin-top: 50px;
@@ -152,7 +150,6 @@ h6 {
   width: 70%;
   margin: 0 auto;
 }
-
 .flexbox-2 {
   display: flex;
   align-items: center;
@@ -174,7 +171,6 @@ h6 {
   text-decoration: none;
   color: black;
 }
-
 .row.flexbox-3 {
   display: flex;
   border-bottom: 2px solid #bdbdbd;
@@ -212,7 +208,6 @@ h6 {
   margin-left: 300px;
   margin-top: 60px;
 }
-
 .big-picture img {
   max-width: 100%;
   padding: 60px 0;
@@ -235,7 +230,6 @@ h6 {
   margin: 0;
   width: 75%;
 }
-
 .row.flexbox-5 {
   margin: 60px 0;
 }
@@ -262,7 +256,6 @@ h6 {
   line-height: 32px;
   width: 85%;
 }
-
 .row.flexbox-6 {
   padding-top: 90px;
   padding-bottom: 60px;
@@ -294,7 +287,6 @@ h6 {
   color: white;
   margin-left: 180px;
 }
-
 .row.flexbox-7 {
   margin: 60px 0;
 }
@@ -323,7 +315,6 @@ h6 {
   text-decoration: none;
   color: black;
 }
-
 .background-img {
   background-image: url(picture9.png);
   height: 568px;
@@ -387,7 +378,6 @@ h6 {
   list-style-type: none;
   margin-left: 100px;
 }
-
 footer {
   display: flex;
   background-color: black;
