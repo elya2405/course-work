@@ -262,7 +262,9 @@ h6 {
 .row.flexbox-6 {
   padding-top: 90px;
   padding-bottom: 60px;
-  background-color: black;
+}
+.black {
+  background-color: #191919;
 }
 .uppercase {
   text-transform: uppercase;
@@ -273,7 +275,7 @@ h6 {
   text-align: center;
   font-size: 18px;
   line-height: 32px;
-  padding: 0 85px;
+  padding: 0 65px;
 }
 .row.flexbox-6 a {
   display: flex;
@@ -286,7 +288,7 @@ h6 {
 }
 .row.flexbox-6 span {
   color: white;
-  margin-left: 215px;
+  margin-left: 180px;
 }
 
 .row.flexbox-7 {
