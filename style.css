@@ -320,13 +320,14 @@ h6 {
   color: black;
 }
 
-.flexbox-8 {
+.background-img {
   background-image: url(picture9.png);
   height: 568px;
-
+  background-size: cover;
+}
+.flexbox-8 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 .flexbox-8 .spotify {
   background-color: black;
@@ -334,6 +335,7 @@ h6 {
   width: 550px;
   height: 303px;
   margin-left: 60px;
+  margin-top: 70px;
 }
 .flexbox-8 .spotify h1 {
   font-size: 55px;
