@@ -213,7 +213,7 @@ h6 {
   margin-top: 60px;
 }
 
-.box img {
+.big-picture img {
   max-width: 100%;
   padding: 60px 0;
 }
@@ -267,7 +267,7 @@ h6 {
   padding-top: 90px;
   padding-bottom: 60px;
 }
-.black {
+.black-bg {
   background-color: #191919;
 }
 .uppercase {
@@ -394,36 +394,36 @@ footer {
   width: 100%;
   height: 618px;
 }
-.stay {
+.footer-header {
   color: white;
   margin-left: 60px;
   margin-top: 20px;
 }
-.stay h1 {
+.footer-header h1 {
   font-size: 42px;
   line-height: 72px;
 }
-.stay p {
+.footer-header p {
   font-size: 18px;
   line-height: 27px;
 }
-.stay input {
+.footer-header input {
   background-color: black;
   border-color: transparent;
   margin: 20px;
 }
-.stay .border-bottom .email {
+.footer-header .border-bottom .email {
   font-size: 9px;
   line-height: 14px;
   color: #818181;
   padding: 10px 190px 5px 5px;
 }
-.stay .border-bottom .submit {
+.footer-header .border-bottom .submit {
   font-size: 12px;
   line-height: 14px;
   color: white;
 }
-.stay .border-bottom {
+.footer-header .border-bottom {
   border-bottom: 1px solid #8a8a8a;
   position: absolute;
 }
