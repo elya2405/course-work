@@ -8,6 +8,7 @@ body {
 .container {
   max-width: 1300px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 .row {
   display: flex;
@@ -69,15 +70,14 @@ h6 {
   font-size: 14px;
   line-height: 18px;
 }
-.row.topbar {
+.topbar {
   display: flex;
   justify-content: space-between;
-
   position: absolute;
   top: 80px;
   width: 100%;
 }
-.row.topbar a {
+.topbar a {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
@@ -110,7 +110,6 @@ h6 {
 }
 .header-background .brown-background .card-content h1 {
   color: white;
-
   font-size: 73px;
   line-height: 96px;
 }
