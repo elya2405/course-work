@@ -70,11 +70,14 @@ h6 {
   font-size: 14px;
   line-height: 18px;
 }
+.relative {
+  position: relative;
+  z-index: 1;
+}
 .topbar {
   display: flex;
   justify-content: space-between;
-  position: absolute;
-  top: 80px;
+  margin-top: 45px;
   width: 100%;
 }
 .topbar a {
@@ -88,10 +91,13 @@ h6 {
   list-style-type: none;
 }
 .topbar li {
-  padding-right: 80px;
+  padding-right: 90px;
 }
 .baseline {
   display: flex;
+}
+.header-background {
+  margin-top: -100px;
 }
 .header-background img {
   width: 100%;
@@ -378,15 +384,10 @@ h6 {
   margin-left: 100px;
 }
 footer {
-  display: flex;
   background-color: black;
   width: 100%;
   height: 618px;
-}
-.footer-header {
   color: white;
-  margin-left: 60px;
-  margin-top: 20px;
 }
 .footer-header h1 {
   font-size: 42px;
@@ -417,21 +418,18 @@ footer {
   position: absolute;
 }
 .links {
-  display: flex;
-  margin-top: 55px;
-  margin-left: 130px;
+  margin-top: 50px;
 }
 .links span {
   color: white;
   text-transform: uppercase;
   font-size: 14px;
   line-height: 21px;
-  margin-left: 140px;
+  margin-left: 80px;
 }
-.links li {
-  margin-left: 100px;
-  padding-bottom: 10px;
-  padding-bottom: 30px;
+.links ul {
+  list-style-type: none;
+  padding-left: 80px;
 }
 .links a {
   text-decoration: none;
@@ -440,19 +438,26 @@ footer {
   font-size: 12px;
   line-height: 18px;
 }
-.links p {
-  color: white;
-  padding-left: 38px;
-  text-transform: uppercase;
-  font-size: 12px;
-  line-height: 18px;
+.links li {
+  padding-bottom: 20px;
 }
 .links-2 {
-  position: absolute;
-  margin-top: 538px;
   margin-left: 20px;
+  margin-top: 100px;
+  margin-left: -50px;
+}
+.links-2 ul {
+  list-style-type: none;
 }
 .links-2 a {
+  text-decoration: none;
+  color: gray;
+  padding-right: 60px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.links-2 .haus-link {
+  color: #ffffff;
   text-decoration: none;
   color: gray;
   padding-right: 60px;
