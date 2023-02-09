@@ -321,13 +321,14 @@ h6 {
   color: black;
 }
 .background-img {
-  background-image: url(picture9.png);
+  background-image: url(images/picture9.png);
   height: 568px;
   background-size: cover;
 }
 .flexbox-8 {
   display: flex;
   flex-direction: column;
+  margin-left: -60px;
 }
 .flexbox-8 .spotify {
   background-color: black;
@@ -468,7 +469,11 @@ footer {
   color: #ffffff;
 }
 
-@media (min-width: 1300px) and (max-width: 800px) {
+@media (min-width: 1300px) and (max-width: 900px) {
+  .header-background {
+    display: flex;
+    flex-direction: row;
+  }
   .row.flexbox-3 {
     display: flex;
     flex-direction: column;
