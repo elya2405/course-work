@@ -182,6 +182,9 @@ h6 {
   padding-bottom: 100px;
   padding-top: 60px;
 }
+.row.flexbox-3 .card {
+  position: relative;
+}
 .row.flexbox-3 .card .card-content p {
   text-align: center;
   width: 100%;
@@ -210,8 +213,8 @@ h6 {
 }
 .row.flexbox-3 .card .circle {
   position: absolute;
-  margin-left: 300px;
-  margin-top: 60px;
+  top: 50px;
+  right: 40px;
 }
 .big-picture img {
   max-width: 100%;
@@ -236,12 +239,13 @@ h6 {
   width: 75%;
 }
 .row.flexbox-5 {
-  margin: 60px 0;
+  margin: 60px 0px;
 }
 .row.flexbox-5 .card.card-horizonal {
   display: flex;
 }
 .row.flexbox-5 .card.card-horizonal .card-img {
+  max-width: 100%;
   width: 880px;
   height: 645px;
 }
@@ -469,17 +473,50 @@ footer {
   color: #ffffff;
 }
 
-@media (min-width: 1300px) and (max-width: 900px) {
-  .header-background {
-    display: flex;
-    flex-direction: row;
+@media (max-width: 1000px) {
+  .header-background .brown-background .card-content h1 {
+    font-size: 50px;
+    width: 100%;
   }
-  .row.flexbox-3 {
-    display: flex;
-    flex-direction: column;
+  .header-background .brown-background .card-content p {
+    font-size: 13px;
   }
-  .row.flexbox-3 .card .card-img {
-    width: 80%;
-    margin-left: 80px;
+  .topbar ul a {
+    font-size: 10px;
+  }
+  .header-background .brown-background .card-content button {
+    font-size: 10px;
+    padding: 15px 40px;
+  }
+  .row.flexbox-1 .card .card-content p {
+    font-size: 13px;
+  }
+  main .flexbox-2 h1 {
+    font-size: 45px;
+  }
+  main .flexbox-2 a {
+    font-size: 10px;
+  }
+  main .row.flexbox-3 .card .card-content h4 {
+    font-size: 25px;
+  }
+  main .row.flexbox-3 .card .card-content p {
+    font-size: 13px;
+  }
+  main .row.flexbox-3 .card .card-content button {
+    font-size: 10px;
+    padding: 13px 50px;
+    margin-left: 100px;
+  }
+  main .row.flexbox-3 .card .circle {
+    position: absolute;
+    left: 200px;
+    top: 20px;
+  }
+  main .flexbox-4 h2 {
+    font-size: 45px;
+  }
+  main .flexbox-4 p {
+    font-size: 13px;
   }
 }
